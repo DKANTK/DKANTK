@@ -1,0 +1,155 @@
+1. 
+include <stdio.h>
+
+int main() {
+   int x=1;
+    // DEEP CODE
+while(x<=5)
+{
+    printf("MySirG\n");
+    x++;
+} 
+
+    return 0;
+}
+2.
+include <stdio.h>
+
+int main() {
+   int x=1;
+    // DEEP CODE
+while(x<=10)
+{
+    printf("%d\n",x);
+    x++;
+} 
+
+    return 0;
+}
+
+3.
+include <stdio.h>
+
+int main() {
+   int x=10;
+    // DEEP CODE
+while(x>=1)
+{
+    printf("%d\n",x);
+    x--;
+} 
+
+    return 0;
+}
+
+4.
+
+include <stdio.h>
+
+int main() {
+   int x=1;
+    // DEEP CODE
+while(x<=19)
+{
+    printf("%d\n",x);
+    x+=2;
+} 
+
+    return 0;
+}
+
+5.
+#include <stdio.h>
+
+int main() {
+   int x=19;
+    // DEEP CODE
+while(x>=1)
+{
+    printf("%d\n",x);
+    x-=2;
+} 
+
+    return 0;
+}
+6.
+include <stdio.h>
+
+int main() {
+   int x=0;
+    // DEEP CODE
+while(x<=18)
+{
+    printf("%d\n",x);
+    x+=2;
+} 
+
+    return 0;
+}
+
+7.
+#include <stdio.h>
+
+int main() {
+   int x=18;
+    // DEEP CODE
+while(x>=0)
+{
+    printf("%d\n",x);
+    x-=2;
+} 
+
+    return 0;
+}
+
+8.
+include <stdio.h>
+
+int main() {
+   int x=1;
+   int sqr;
+    // DEEP CODE
+while(x<=10)
+{
+    sqr=x*x;
+    printf("%d\n",sqr);
+    x++;
+} 
+
+    return 0;
+}
+
+9.
+include <stdio.h>
+
+int main() {
+   int x=1;
+   int cub;
+    // DEEP CODE
+while(x<=10)
+{
+    cub=x*x*x;
+    printf("%d\n",cub);
+    x++;
+} 
+
+    return 0;
+}
+
+10.
+include <stdio.h>
+
+int main() {
+   int x=1;
+   int tbl_5;
+    // DEEP CODE
+while(x<=10)
+{
+    tbl_5=5*x;
+    printf("%d\n",tbl_5);
+    x++;
+} 
+
+    return 0;
+}
+
