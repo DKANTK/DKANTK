@@ -1,0 +1,142 @@
+// Write a program to calculate sum of first N natural numbers
+
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n,sum=0;
+   printf("Enter the value of N :");
+   scanf("%d",&n);
+   for(i=1; i<=n; i++)
+      sum+=i;
+    //sum = n*(n+1)/2;                  // using formula
+    printf("\nsum of first %d natural is %d",n,sum); 
+}
+// 2. Write a program to calculate sum of first N even natural numbers
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n,sum=0;
+   printf("Enter the value of N :");
+   scanf("%d",&n);
+   for(i=2; i<=2*n; i+=2)
+       sum+=i;
+     //sum = n*(n+1);
+     printf("\nsum of first %d even natural numbers is %d",n,sum); 
+}
+// 3. Write a program to calculate sum of first N odd natural numbers
+#include<stdio.h>
+
+int main()
+{
+   int i,n,sum=0;
+   printf("Enter the value of N :");
+   scanf("%d",&n);
+   for(i=1; i<2*n; i+=2)
+       sum+=i;
+     //sum = n*n;         // using formula
+     printf("\nsum of first %d odd natural numbers is %d",n,sum); 
+}
+// 4. Write a program to calculate sum of squares of first N natural numbers
+
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n,sqr,sum=0;
+   printf("Enter the value of N :");
+   scanf("%d",&n);
+  //  for(i=1; i<=n; i++){
+  //    sqr = i*i;
+  //    sum+=sqr;
+  //  }
+    sum = n*(n+1)*(2*n+1)/6;      // using formula
+     printf("\nsum of squares of first %d natural numbers is %d",i,sum); 
+}
+// 5. Write a program to calculate sum of cube of first N natural numbers
+
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n,cube,sum=0;
+   printf("Enter the value of N :");
+   scanf("%d",&n);
+//    for(i=1; i<=n; i++){
+//      cube = i*i*i;
+//      sum+=cube;
+//    }
+    sum = (n*(n+1)/2)*(n*(n+1)/2);   // using formula
+     printf("\nsum of cube of first %d natural numbers is %d",i,sum); 
+}
+//6. Write a program to calculate factorial of a number
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n, fac=1;
+   printf("Enter the  number :");
+   scanf("%d",&n);
+   for(i=1; i<=n; i++)
+       fac = fac*i;
+     printf("\nfactorial of a number is %d",fac); 
+}
+8.// Write a program to count digits in a given number
+
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n,count=0;
+   printf("Enter the  number :");
+   scanf("%d",&n);
+   while (n>0)
+   {
+      count+=1;
+      n/=10;
+   }    
+     printf("digits in a given number is %d",count); 
+}
+// 9. Write a program to calculate LCM of two numbers
+
+#include<stdio.h>
+
+int main()
+{
+   int i,m,n;
+   printf("Enter two numbers :");
+   scanf("%d%d",&m,&n);
+   
+   if( m%n ==0 || n%m ==0)
+   {
+     if(m>n)
+       printf("LCM of %d, %d is %d",m,n,m);
+     else
+        printf("LCM of %d, %d is %d",m,n,n); 
+   }else
+      printf("LCM of %d, %d is %d",m,n,m*n);   
+}
+// 10. Write a program to reverse a given number
+
+#include<stdio.h>
+
+int main()
+{
+   int i,n,digit,rn=0;
+   printf("Enter the  number :");
+   scanf("%d",&n);
+   while (n>0)
+   {
+      digit = n%10;
+      rn = rn*10+digit;
+      n/=10;
+   }    
+     printf("Reverse is %d",rn); 
+}
